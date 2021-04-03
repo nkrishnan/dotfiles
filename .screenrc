@@ -1,0 +1,14 @@
+startup_message off
+
+# off with the Wuff Wuff
+vbell off
+
+# tell xterm to use the normal screen buffer
+# (which has scrollback), not the alternate screen buffer.
+termcapinfo xterm|xterms|xs|rxvt ti@:te@
+
+# large history
+defscrollback 100000
+
+# emacsclient on window 0, and title the window "emacs"
+screen -t emacs emacsclient -t
