@@ -3,6 +3,8 @@ startup_message off
 # off with the Wuff Wuff
 vbell off
 
+term xterm-256color
+
 # tell xterm to use the normal screen buffer
 # (which has scrollback), not the alternate screen buffer.
 termcapinfo xterm|xterms|xs|rxvt ti@:te@
